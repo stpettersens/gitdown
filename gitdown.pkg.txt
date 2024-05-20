@@ -1,0 +1,11 @@
+[PACKAGE]
+NAME = gitdown
+VERSION = 0.2
+AUTHOR = Sam Saint-Pettersen
+MAINTAINER = Sam Saint-Pettersen
+DESCRIPTION = Simple tool to sync git repositories from a plain text list
+GIT = https://github.com/stpettersens/gitdown
+LOCKED = 0
+BUILD = make && make install
+FILES:
+/usr/bin/gitdown
